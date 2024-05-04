@@ -15,8 +15,7 @@ function App() {
 						<Route
 							key={i}
 							path={`/posts/${i + 1}`}
-							element={<Post post={post} />}
-							user={i + 1}
+							element={<Post post={post} user={i + 1} />}
 						/>
 					))}
 			</Routes>
