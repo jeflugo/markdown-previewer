@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-function Post({ post, user, id }) {
+function Post({ post, user }) {
 	return (
 		<div>
 			<div>

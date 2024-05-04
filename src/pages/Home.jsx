@@ -49,9 +49,7 @@ function Home({ posts, setPosts }) {
 					</button>
 				</form>
 				{posts.length !== 0 &&
-					posts.map((post, i) => (
-						<Post key={i} post={post} user={i + 1} id={i + 1} />
-					))}
+					posts.map((post, i) => <Post key={i} post={post} user={i + 1} />)}
 			</div>
 		</>
 	)
